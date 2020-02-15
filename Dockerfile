@@ -10,7 +10,7 @@ USER node
 
 RUN npm install
 
-COPY --chown=node:node . .
+COPY --chown=node:node ./TestNode .
 
 EXPOSE 3000
 
